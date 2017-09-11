@@ -1,0 +1,28 @@
+{
+  "name": "tallink",
+  "version": "1.0.0",
+  "description": "Tallink vue.js example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tallink",
+    "vue.js"
+  ],
+  "author": "Fred Korts",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5",
+    "vue": "^2.4.2",
+    "vue-tabs-component": "^1.1.0"
+  }
+}

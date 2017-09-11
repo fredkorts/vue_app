@@ -1,0 +1,158 @@
+/*!
+Theme Name: Fred Underscores
+Theme URI: https://github.com/fredkorts/underscore_fred_g
+Author: Fred Korts
+Author URI: http://underscores.me/
+Description: Underscores based theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: underscore_fred
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Fred Underscores is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+body {
+	background-image: url("img/Background.png");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+.row {
+	height: 100%;
+}
+
+.container-fluid {
+	img {
+		display: block;
+		margin: 0 auto;		
+	}
+}
+.header-banner {
+	height: 54px;
+	background: #fff;
+	box-shadow: 1px -2px 13px #000;
+	img {
+		padding-top: 5px;
+	}
+}
+
+.advert-container {
+	height: 54px;
+	margin-top: 30px;
+	img {
+		height: 90px;
+	}
+}
+
+.content {
+	height: 305px;
+	margin-top: 68px;
+	text-align: center;
+	.form {
+		background: #fff;
+		height: 100%;
+		margin: 0 auto;
+		box-shadow: 0 2px 9px -1px #000;
+		border-radius: 4px;
+	}
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+@import "layout/flex";
+
+
